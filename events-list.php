@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Events List
  * Description: Manage and display time-based events with expiration, admin UI, and shortcodes.
- * Version: 1.0
+ * Version: 1.1
  * Author: FedMed Dev
  */
 
