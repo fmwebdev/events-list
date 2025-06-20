@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Events List
  * Description: Manage and display time-based events with expiration logic and shortcode rendering.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: FM Dev
  * Text Domain: events-list
  */
