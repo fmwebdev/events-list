@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Events List
  * Description: Manage and display time-based events with expiration logic and shortcode rendering.
- * Version: 1.5
+ * Version: 1.2
  * Author: WordPress Plugin AI
  * Text Domain: events-list
  */
