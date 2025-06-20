@@ -11,7 +11,7 @@ function el_register_event_post_type() {
         'public' => true,
         'menu_icon' => 'dashicons-calendar-alt',
         'supports' => array('title', 'editor', 'thumbnail'),
-        'has_archive': false,
+        'has_archive' => false,
         'rewrite' => array('slug' => 'event-item'),
     ));
 }
