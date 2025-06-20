@@ -1,1 +1,1 @@
-<?php defined('ABSPATH') || exit; // Placeholder, actual shortcode logic already deployed elsewhere
+<?php defined('ABSPATH') || exit; // Placeholder for actual shortcodes

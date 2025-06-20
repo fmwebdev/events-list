@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Events List
  * Description: Manage and display events with GitHub auto-update support.
- * Version: 1.2
+ * Version: 1.3
  * Author: WordPress Plugin AI
  */
 
