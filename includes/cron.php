@@ -4,7 +4,7 @@ defined('ABSPATH') || exit;
 add_action('el_check_expired_events', 'el_mark_expired_events');
 add_action('save_post_event_item', 'el_mark_single_event_expiry');
 add_action('wp_insert_post', function($post_id, $post, $update) {
-    if ($post->post_type === 'event_item') {
+    if (get_post_type($post_id) === 'event_item') {
         el_check_and_update_expiry($post_id);
     }
 }, 10, 3);

@@ -1,5 +1,4 @@
 <?php
-// Exit if accessed directly
 defined('WP_UNINSTALL_PLUGIN') || exit;
 
 // Delete all event_item posts

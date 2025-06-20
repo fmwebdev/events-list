@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Events List
- * Description: Manage and display time-based events with expiration, admin UI, and shortcodes.
+ * Description: Manage and display time-based events with expiration logic, shortcodes, admin UI, and GitHub update support.
  * Version: 1.1
- * Author: FedMed Dev
+ * Author: WordPress Plugin AI
+ * Text Domain: events-list
  */
-
 defined('ABSPATH') || exit;
 
 require_once plugin_dir_path(__FILE__) . 'includes/cpt.php';
@@ -14,6 +14,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';
 require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/cron.php';
 require_once plugin_dir_path(__FILE__) . 'includes/admin-ui.php';
+require_once plugin_dir_path(__FILE__) . 'includes/github-updater.php';
 
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('events-list-style', plugin_dir_url(__FILE__) . 'assets/frontend.css');
