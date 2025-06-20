@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap');
+
+.events-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.event-card {
+  flex: 0 1 330px;
+  max-width: 330px;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 0;
+}
+
+.event-card img {
+  max-width: 330px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.event-block-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.event-mini-month-day {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  min-width: 50px;
+  font-size: 0.9em;
+  color: white;
+}
+
+.event-mini-month-day .month {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.event-mini-month-day .day {
+  font-size: 3em;
+  color: white;
+}
+
+.event-mini-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.event-mini-details .time,
+.event-mini-details .title,
+.event-mini-details .venue {
+  margin: 0px 0px -4px 0px;
+}
+
+.event-mini-details .time {
+  font-size: 1.1em;
+  color: white;
+}
+
+.event-mini-details .title {
+  font-size: 1.8em;
+  font-style: italic;
+  font-weight: bold;
+  color: #90ee90;
+  text-transform: uppercase;
+  line-height: 1.0em;
+}
+
+.event-mini-details .venue {
+  font-size: 0.9em;
+  color: white;
+}
+
+.event-mini-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-mini-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 5px;
+}
+li.event-mini-item {
+    padding: 0px !important;
+}
+.event-mini-item img {
+  min-width: 75px !important;
+  width: 75px !important;
+  height: 75px !important;
+  object-fit: cover;
+  border-radius: 4px;
+}
