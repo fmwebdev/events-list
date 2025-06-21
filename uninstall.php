@@ -1,1 +1,0 @@
-<?php defined('WP_UNINSTALL_PLUGIN') || exit; // Placeholder for uninstall logic ?>
