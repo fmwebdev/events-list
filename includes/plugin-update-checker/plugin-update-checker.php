@@ -1,1 +1,0 @@
-<?php require_once __DIR__ . '/load-v4p10.php'; ?>

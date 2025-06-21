@@ -1,1 +1,0 @@
-<?php defined('ABSPATH') || exit; // Placeholder for admin column logic
